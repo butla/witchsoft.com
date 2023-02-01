@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WitchSoft's announcements</title>
+  <link href="https://witchsoft.com/"/>
+  <link href="https://witchsoft.com/atom.xml" rel="self"/>
+
+  <updated>2023-02-01T18:47:02Z</updated>
+  <id>urn:uuid:7b391f57-fdee-4650-8602-9f7805bcb9aa</id>
+</feed>
