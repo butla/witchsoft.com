@@ -6,4 +6,15 @@
 
   <updated>2023-02-01T18:47:02Z</updated>
   <id>urn:uuid:7b391f57-fdee-4650-8602-9f7805bcb9aa</id>
+
+  <entry>
+    <id>urn:uuid:3c88c2b0-4180-4e08-814a-255c6e584e0d</id>
+    <title>PITowalut.pl is live since yesterday</title>
+    <published>2023-04-26T12:50:00+02:00</published>
+    <author>
+      <name>Primary Software Wizard</name>
+    </author>
+    <content type="html">A new product is live: &lt;a href=&quot;https://pitowalut.pl&quot;&gt;PITowalut.pl&lt;/a&gt;</content>
+    <category term="product" label="product"/>
+  </entry>
 </feed>
