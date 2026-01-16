@@ -1,6 +1,4 @@
 figure > img {
-  max-width: 549px;
-  max-height: 600px;
-  width: 100%;
+  max-width: 400px;
   height: auto;
 }
