@@ -96,13 +96,13 @@ main {
   z-index: 1;
   max-width: 34rem;
   margin: 0 auto;
-  padding: 5rem 1rem 4rem;
+  padding: clamp(4rem, 9vh, 5rem) 1rem 4rem;
   text-align: center;
 }
 
 .logo {
   margin: 0 auto 2rem;
-  width: min(220px, 60vw);
+  width: min(220px, 52vw, 32vh);
   aspect-ratio: 1;
   border-radius: 50%;
   overflow: hidden;
@@ -248,7 +248,8 @@ h1 {
 main::before {
   content: "";
   position: absolute;
-  inset: 2rem -6rem;
+  /* reaches past the content on wide screens, but never past the screen edge */
+  inset: 2rem max(-6rem, (100% - 100vw) / 2);
   z-index: -1;
   background: radial-gradient(ellipse closest-side, var(--bg) 55%, transparent);
   opacity: 0;
