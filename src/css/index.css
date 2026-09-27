@@ -121,8 +121,7 @@ main {
 
 h1 {
   margin: 0;
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: clamp(3rem, 12vw, 4.5rem);
   line-height: 1;
   letter-spacing: 0.02em;
@@ -130,9 +129,7 @@ h1 {
 
 .tagline {
   margin: 1.25rem 0 2rem;
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   line-height: 1.35;
 }
 
@@ -160,7 +157,6 @@ h1 {
 .links h3 {
   margin: 0 0 0.6rem;
   color: var(--muted);
-  font-family: "JetBrains Mono", ui-monospace, monospace;
   font-size: 0.72rem;
   font-weight: 400;
   letter-spacing: 0.18em;
@@ -195,7 +191,8 @@ h1 {
   background: color-mix(in srgb, var(--bg) 70%, transparent);
   backdrop-filter: blur(6px);
   color: var(--muted);
-  font: 400 0.7rem "JetBrains Mono", ui-monospace, monospace;
+  font: inherit;
+  font-size: 0.7rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;

@@ -183,7 +183,7 @@ window.fancyBackground = (function () {
   }
 
   function drawRain() {
-    ctx.font = '13px "JetBrains Mono", ui-monospace, monospace';
+    ctx.font = '13px "Inter", system-ui, sans-serif';
     for (const drop of drops) {
       for (let i = 0; i < drop.length; i++) {
         const alpha = 0.12 * (1 - i / drop.length);
